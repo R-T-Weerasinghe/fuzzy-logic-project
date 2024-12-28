@@ -1,0 +1,57 @@
+# Virtual environment directory (not needed if users recreate it)
+.venv/
+
+# Editor configurations
+.idea/
+.vscode/
+
+# Cache files and folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and debug output
+*.log
+
+# Compiled or platform-specific artifacts
+*.so
+*.dll
+*.dylib
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+*.cover
+*.coverage
+.coverage.*
+
+# Test results
+*.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Poetry build artifacts
+*.whl
+*.tar.gz
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# model files
+*.pt
+*.onnx
+*.h5
+*.pb
+
+# videos
+*.mp4
+*.mkv
+*.m4v
+*.avi
